@@ -1,0 +1,68 @@
+/* 基本样式设置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f4;
+    /* 浅绿色背景 */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007f7f;
+    /* 海洋蓝背景 */
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 首页 */
+#home {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #007f7f;
+}
+
+#home p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* 页脚 */
+footer {
+    text-align: center;
+    background-color: #007f7f;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
